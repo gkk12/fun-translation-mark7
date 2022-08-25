@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dothraki speak</title>
+    <style>
+        textarea {
+            width: 80%;
+            margin: auto;
+            padding: 1rem;
+            height: 10vh;
+            display: block;
+            
+        }
+        #output {
+            border: 1px solid black;
+            height: 10vh;
+            margin: auto;
+            padding: 1rem;
+            width: 80%;
+        }
+        #header{
+            display: block;
+            background-color: gray;
+            text-align: center;    
+        }
+        #btn-translate{
+            margin-left: 600px;
+            margin-top: 50px;
+            text-align: center;
+            width: 200px;
+            background-color: gray;
+            font-style: italic;
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+            border: 3px solid gainsboro;
+            border-radius: 5px;
+        }
+        #output-label{
+            font-size: larger;
+            margin-left: 600px;
+            margin-top: 25px;
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header"><h1 >⚔️Dothraki talk</h1></div>
+    <textarea id="txt-input" placeholder="put your sentence in english here and we will translate it to the Dothraki language"></textarea>
+    <button id="btn-translate" name="translator">Translate</button>
+
+    <div id="output-label">Output will come here 👇</div>
+    <div id="output"></div>
+    <script src="app.js" type="text/javascript">
+    </script>
+</body>
+</html>
