@@ -6,4 +6,4 @@ This is an application to translate a sentence from English into a Dothraki's la
 HTML, CSS and JavaScript
 
 ### Demo:
-[Dothraki Talk](https://language-converter.netlify.app/)
+[Dothraki Talk](https://dothraki-translator-gk.netlify.app/)
